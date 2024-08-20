@@ -30,7 +30,7 @@ test {
     finalizedBy jacocoTestReport
 }
 
- jar {
+ jar { 
     manifest {
         attributes 'Main-Class': 'com.example.HelloWorld'        
     }
